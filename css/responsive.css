@@ -1,0 +1,343 @@
+@media(min-width:320px) and (max-width:576px) {
+
+    /* Banner  */
+    .navbar_btn {
+        text-decoration: none;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        background: #FF5538;
+        padding: 14px 15px;
+        color: #ffffff;
+        border-radius: 18px;
+    }
+
+    .bannerclose {
+        display: none;
+    }
+
+    .Extraring {
+        display: none;
+    }
+
+    .bannertopshape {
+
+        display: none;
+    }
+
+    .banner_side_ring {
+
+        display: none;
+    }
+
+    .bannerround {
+
+        display: none;
+    }
+
+    .banner_golden_round {
+
+        display: none;
+    }
+
+    .bannerring {
+
+        display: none;
+    }
+
+    .Banner_BigSnake {
+
+        display: none;
+    }
+
+    .Banner_BigSnake {
+
+        display: none;
+    }
+
+    .Banner_MiddleSnake {
+
+        display: none;
+    }
+
+    .banner_round_ring {
+
+        display: none;
+    }
+
+    .customer-x {
+
+        display: none;
+    }
+
+    .banner-round {
+
+        display: none;
+    }
+
+    #Banner .text_area h1 {
+
+        font-size: 35px;
+        width: auto;
+
+    }
+
+    #Banner .text_area p {
+
+        font-size: 15px;
+        width: auto;
+
+    }
+
+    /* Banner End */
+
+
+    /* About Start */
+    #about {
+
+        transform: translateY(0%);
+    }
+
+    #about .item h3 {
+        width: auto;
+
+    }
+
+    #about .item p {
+        width: auto;
+
+    }
+
+    /* About end */
+
+
+    /*  Connect  */
+
+    #Connect .title h3 {
+
+        font-size: 14px;
+
+    }
+
+    .connect_bash {
+
+        display: none;
+    }
+
+    .item_left img {
+        width: 100%;
+    }
+
+
+    #Connect .Connect_wrapper .item_left {
+        width: 100%;
+        height: 521px;
+        /* width: 945px; */
+    }
+
+    #Connect .Connect_wrapper .item_right {
+        width: 100%;
+        height: 375px;
+        background: #FBF3F0;
+        position: static;
+
+    }
+
+    .Connect_wrapper .text_area {
+        /* margin-left: 186px; */
+        margin-left: 0;
+    }
+
+    .Connect_wrapper {
+        display: block;
+        position: relative;
+    }
+
+
+    .text_area h3 {
+        width: auto;
+        color: #29313D;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        /* line-height: 140%; */
+        text-transform: capitalize;
+        /* margin-top: 100px; */
+        margin: 0;
+    }
+
+    .text_area p {
+        width: auto;
+        color: #29313D;
+        font-family: Nunito;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        text-transform: capitalize;
+        margin-bottom: 48px;
+    }
+
+    .title h1 {
+        width: auto;
+
+        font-size: 20px;
+    }
+
+    /*  Connect End */
+
+    /* Experience */
+
+    #experience .ex-snake {
+
+        display: none;
+    }
+
+    #experience .ex-close {
+
+        display: none;
+    }
+
+    #experience .title h3 {
+
+        font-size: 14px;
+
+    }
+
+    #experience .title h1 {
+        width: auto;
+    }
+
+    #experience .card .des h2 {
+
+        font-size: 14px;
+
+    }
+
+
+    #experience .card .des a {
+
+        font-size: 20px;
+
+    }
+
+    /* Experience End */
+
+    /* Service  */
+
+
+
+
+    .counting-snake {
+
+        display: none;
+    }
+
+    .counting_ring {
+
+        display: none;
+
+    }
+
+    #Service .text-area h1 {
+        width: auto;
+
+        font-size: 25px;
+
+    }
+
+    #Service .text-area p {
+        width: auto;
+        font-size: 15px;
+
+    }
+
+
+    /* Service  End */
+
+    /* Companies  */
+
+    #Companies h1 {
+        width: auto;
+
+        font-size: 25px;
+
+    }
+
+    #customer .customer-y {
+
+        display: none;
+    }
+
+    #customer h1 {
+
+        font-size: 25px;
+
+    }
+
+    #customer p {
+        width: auto;
+
+        font-size: 15px;
+
+    }
+
+    #customer .customer-image img {
+        width: 100%;
+    }
+
+
+    /* Companies End */
+
+
+    /* Contact */
+
+    #contact .con_snake {
+
+        display: none;
+    }
+
+    #contact h3 {
+
+        font-size: 14px;
+
+    }
+
+    #contact h2 {
+
+        font-size: 25px;
+
+    }
+
+    #contact p {
+
+        width: auto;
+
+        font-size: 15px;
+
+    }
+
+    #customer h1 {
+        font-size: 15px;
+    }
+
+    #customer .customer-navigation span {
+
+        font-size: 20px;
+
+    }
+
+    /* Contact End */
+
+    /* Footer */
+    footer p {
+        width: auto;
+
+        font-size: 18px;
+
+    }
+
+    /* Footer End */
+
+}

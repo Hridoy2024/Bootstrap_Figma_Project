@@ -1,0 +1,850 @@
+.container {
+    max-width: 1410px !important;
+    margin: 0 auto;
+    /* background: red; */
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+}
+
+/* nav start */
+
+
+nav {
+    position: absolute !important;
+    width: 100%;
+
+    z-index: 999;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    /* gap: 8px; */
+    margin-left: 48px;
+
+}
+
+
+.nav-item a {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #29313D;
+}
+
+
+
+
+.navbar_btn {
+    text-decoration: none;
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #FF5538;
+    padding: 14px 28px;
+    color: #ffffff;
+    border-radius: 18px;
+
+}
+
+/* nav end */
+
+/* Banner Start */
+#Banner {
+    background: #FBF3F0;
+    /* height: 100vh; */
+    padding-top: 293px;
+    padding-bottom: 297px;
+    position: relative;
+}
+
+.bannerclose {
+    position: absolute;
+    top: 360px;
+    left: 1410px;
+}
+
+.bannerround {
+    position: absolute;
+    top: 180px;
+    left: 620px;
+}
+
+.banner_side_ring {
+
+    width: 61px;
+    height: 121px;
+    border: 1px solid #C087EE;
+    border-right: 0;
+    border-radius: 200px 0 0 200px;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+
+
+}
+
+
+.bannertopshape {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.bannerring {
+    position: absolute;
+    top: 80px;
+    left: 810px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.banner_golden_round {
+    position: absolute;
+    bottom: -130px;
+    left: 0;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+.Banner_BigSnake {
+    position: absolute;
+    top: 185px;
+    left: 120px;
+
+}
+
+.Banner_MiddleSnake {
+    position: absolute;
+    top: 260px;
+    right: 0;
+}
+
+.banner_round_ring {
+    position: absolute;
+    top: 585px;
+    left: 260px;
+
+
+}
+
+.customer-x{
+    position: absolute;
+    bottom: 400px;
+    left: 80px;
+
+}
+.banner-round{
+    position: absolute;
+    bottom: 265px;
+    left: 175px;
+
+}
+
+#Banner .text_area {
+    text-align: center;
+}
+
+#Banner .text_area h1 {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    width: 771px;
+    /* text-align: center; */
+    color: #29313D;
+    line-height: 130%;
+    margin: 0 auto;
+}
+
+#Banner .text_area p {
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    /* width: 771px; */
+    /* text-align: center; */
+    color: #29313D;
+    line-height: 200%;
+    margin: 0 auto;
+    width: 547px;
+    margin-top: 24px;
+}
+
+#Banner .banner_btn {
+    display: inline-block;
+    /* gap: 24px; */
+    /* border:  transparent; */
+    transition: .4s;
+    margin-top: 44px;
+    margin-left: 24px;
+}
+
+.banner_btn:hover {
+    background: #FFDCD8;
+    color: #FF5538;
+    border: 2px solid #FFDCD8;
+}
+
+
+
+/* Banner End */
+
+/* About */
+
+#about {
+    /* margin-bottom: 100px; */
+    transform: translateY(-50%);
+
+
+}
+
+#about img {
+    margin-bottom: 34px;
+}
+
+#about .item {
+
+    width: 100%;
+    background: #FFFFFF;
+    padding: 30px 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+#about .item h3 {
+    width: 298px;
+    color: #29313D;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 44.8px */
+    text-transform: capitalize;
+    margin-bottom: 16px;
+
+}
+
+#about .item img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+
+#about .item p {
+    width: 374px;
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    /* 36px */
+    text-transform: capitalize;
+}
+
+/* About End */
+
+/* Connect Start */
+
+#Connect {
+    margin-bottom: 200px;
+    position: relative;
+}
+
+#Connect .title h3 {
+    color: #FF5538;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 28px */
+    text-transform: capitalize;
+}
+
+.title h1 {
+    width: 449px;
+    color: #29313D;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 67.2px */
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.Extraring {
+    position: absolute;
+    top: 135px;
+    left: 560px;
+}
+
+.Connect_wrapper {
+    display: flex;
+    position: relative;
+}
+
+
+#Connect .Connect_wrapper .item_left {
+    width: 45%;
+    height: 521px;
+    /* width: 945px; */
+
+}
+
+
+
+.item_left img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#Connect .Connect_wrapper .item_right {
+    width: 60%;
+    height: 626px;
+    background: #FBF3F0;
+    position: absolute;
+    top: -48px;
+    right: 0;
+    z-index: -1;
+
+}
+
+.Connect_wrapper .text_area {
+    margin-left: 186px;
+}
+
+
+.text_area h3 {
+    width: 570px;
+    color: #29313D;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 140%; */
+    text-transform: capitalize;
+    margin-top: 100px;
+
+}
+
+.text_area p {
+    width: 501px;
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    /* 36px */
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+
+.connect_bash {
+    position: absolute;
+    right: 0px;
+    bottom: -220px;
+}
+
+
+/* Connect End */
+
+
+/* Experience Start */
+
+#experience {
+    margin-top: 120px;
+    position: relative;
+}
+
+#experience .ex-snake {
+    position: absolute;
+    top: -370px;
+    left: 0;
+    z-index: -1;
+}
+
+#experience .ex-close {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+
+#experience .title h1 {
+    width: 693px;
+}
+
+#experience .title h3 {
+    color: #FF5538;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 28px */
+    text-transform: capitalize;
+
+}
+
+#experience .navbar_btn {
+    display: block;
+    margin-top: 45px;
+    padding: 14px 28px;
+    width: 181px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#experience .card .des {
+    padding: 30px;
+    box-shadow: 0px -9px 40px 0px rgba(26, 19, 62, 0.06);
+
+}
+
+#experience .card img {
+    height: 329px;
+}
+
+#experience .card {
+    border-radius: 0;
+    border: none;
+}
+
+#experience .card .des h2 {
+    color: #29313D;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 39.2px */
+    text-transform: capitalize;
+}
+
+#experience .card .des a {
+    color: #FF5538;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 18px */
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#experience .line-2 {
+    margin-top: 30px;
+}
+
+/* Experience End */
+
+/* Service */
+
+#Service {
+    margin-top: 200px;
+    /* margin-bottom: 120px; */
+    background-color: #FDF9F8;
+    padding-top: 120px;
+    position: relative;
+    padding: 120px 0;
+
+}
+
+#Service .container {
+    position: relative;
+    z-index: 2;
+}
+
+.counting-snake {
+    position: absolute;
+    top: -55px;
+    right: 0;
+
+}
+
+.counting_ring {
+    position: absolute;
+    bottom: 235px;
+    left: 60px;
+    /* z-index:2 ; */
+}
+
+#Service .row-2 {
+    margin-top: 30px;
+}
+
+#Service .service-item {
+    width: 100%;
+    background: white;
+    padding: 74px 60px;
+}
+
+#Service .service-item h2 {
+    color: #29313D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 56px */
+    text-transform: capitalize;
+}
+
+
+#Service .service-item p {
+    color: #29313D;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 18px */
+    text-transform: capitalize;
+}
+
+#Service .text-area {
+    padding-left: 100px;
+
+}
+
+#Service .text-area h1 {
+
+    width: 570px;
+    color: #29313D;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 67.2px */
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+#Service .text-area p {
+    width: 550px;
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    /* 36px */
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+
+
+/* Service End */
+
+/* Company */
+
+#Companies {
+    padding: 120px 0;
+}
+
+#Companies h1 {
+    width: 849px;
+    color: #29313D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 67.2px */
+    text-transform: capitalize;
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+}
+
+#Companies .img-box {
+    width: 100%;
+    height: 130px;
+
+    background-color: #FDF9F8;
+}
+
+/* Company ENd */
+
+/* Customer */
+
+#customer {
+    background-color: #FDF9F8;
+    padding: 139px 0;
+    position: relative;
+}
+
+#customer .customer-x{
+    position: absolute;
+    bottom: 250px;
+    left: 0;
+
+}
+
+#customer .customer-y{
+    position: absolute;
+    top: 75px;
+    right: 200px;
+}
+
+
+#customer h1 {
+    color: #29313D;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 67.2px */
+    text-transform: capitalize;
+}
+
+
+#customer .image-row {
+    margin: 60px 0;
+}
+
+#customer .image-row img {
+    margin-right: 28px;
+}
+
+#customer .customer-navigation {
+    gap: 40px;
+    margin-top: 60px;
+}
+
+#customer p {
+    width: 690px;
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 36px */
+    text-transform: capitalize;
+}
+
+#customer .customer-navigation span {
+    color: #29313D;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+    /* 64.8px */
+    text-transform: capitalize;
+}
+
+#customer .nav-button button {
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #FFDDD7;
+    color: #130F26;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    margin-right: 24px;
+}
+
+
+#customer .nav-button .orange-nav {
+    color: white;
+    background-color: #FF5538;
+}
+
+#customer .customer-image img {
+    width: 501px;
+    height: 557px;
+    border-radius: 30px;
+}
+
+/* Customer End */
+
+/* Contact */
+
+#contact {
+    background-color: #FFD7C8;
+    padding: 100px 0;
+    position: relative;
+}
+
+#contact .con_snake {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#contact h3 {
+    color: #29313D;
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 28px */
+    text-transform: capitalize;
+
+}
+
+#contact h2 {
+    color: #29313D;
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 67.2px */
+    text-transform: capitalize;
+}
+
+#contact .navbar_btn {
+    display: block;
+    /* margin-top: 119px; */
+    padding: 14px 28px;
+    width: 181px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 67px;
+
+
+}
+
+#contact p {
+    margin-top: 24px;
+    width: 1283px;
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 36px */
+    text-transform: capitalize;
+}
+
+
+
+/* Contact End */
+
+/* footer */
+
+footer {
+    margin-top: 140px;
+    padding-bottom: 57px;
+}
+
+footer p {
+    width: 449px;
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 32.4px */
+    text-transform: capitalize;
+    margin-top: 44px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer h2 {
+    margin-bottom: 48px;
+}
+
+footer ul a {
+    text-decoration: none;
+    display: block;
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 24px */
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    margin-top: 80px;
+}
+
+.copyright span {
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 32.4px */
+    text-transform: capitalize;
+
+}
+
+.copyright a {
+    color: #29313D;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 32.4px */
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Privacy {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 60px;
+}
+
+/* footer end */
